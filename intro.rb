@@ -35,4 +35,24 @@ def sum_nums(max)
   end
   return sum
 
+
+## Problem 3
+# Write a method factorial(num) that takes in a number num and returns the product 
+# of all numbers from 1 up to and including num.
+
+def factorial(num)
+   
+  mult = 1
+  i = 1
+  
+  while i <= num
+    mult *= i
+    i += 1
+  end
+  return mult
+
+
+end
+
+
 end
