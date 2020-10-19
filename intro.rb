@@ -70,3 +70,25 @@ def reverse(word)
       
 end
 
+
+## Problem 5
+# Write a palindrome function
+def is_palindrome(word)
+
+  i = 0
+  reversed = ""
+  
+  while i < word.length
+    char = word[i]
+    reversed = char + reversed
+    i += 1
+  end
+  
+  if word == reversed
+    return true
+  else 
+    return false
+  end
+    
+end
+
